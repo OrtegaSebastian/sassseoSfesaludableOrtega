@@ -24,6 +24,7 @@ ul {
   margin: 0;
   padding: 15px 0;
   overflow: hidden;
+  overflow-x: hidden;
   background-image: -webkit-gradient(linear, right top, left top, from(#38683202), color-stop(#3a899c), color-stop(#47a2b3), color-stop(#4dfc9673), to(#618146bb));
   background-image: linear-gradient(to left, #38683202, #3a899c, #47a2b3, #4dfc9673, #618146bb);
   display: -webkit-box;
@@ -95,13 +96,12 @@ h3 {
 
 .texto-index {
   font-size: 1.4rem;
-  background-color: #fffff0;
+  background-color: #d8d8793b;
   color: black;
-  padding: 5px;
-  margin: 3px;
+  margin: 10px;
   display: inline-block;
   font-size: 22px;
-  padding: 10px 0 35px 35px;
+  padding: 10px;
   text-shadow: 0 0 2px #000000e3;
 }
 
@@ -116,20 +116,22 @@ div {
   text-align: justify;
 }
 
+.imagenprimera {
+  margin: 10px;
+}
+
 /* Pages */
 .quienessomos {
   font-size: 1.4rem;
-  background-color: #fffff0;
+  background-color: #d8d8793b;
   color: black;
-  padding: 5px;
+  padding: 12px;
   margin: 3px;
   display: inline-block;
-  font-size: 22px;
-  padding: 10px 0 35px 35px;
   text-shadow: 0 0 2px #000000e3;
 }
 
-.recetas {
+.trecetas {
   margin: 6px;
   text-align: center;
   font-size: 27px;
@@ -139,6 +141,13 @@ div {
           animation-duration: 2s;
   font-family: 'Oooh Baby', cursive;
   text-transform: uppercase;
+  padding: 10px;
+}
+
+.recetas {
+  font-size: 20px;
+  font-family: 'Oooh Baby', cursive;
+  text-align: justify;
 }
 
 .row {
@@ -181,62 +190,6 @@ div {
   border: 1px solid gray;
 }
 
-.btn--verde1 {
-  background-color: red;
-  height: 200px;
-  width: 400px;
-  border: 2px solid #333;
-  text-align: center;
-  font-size: 50px;
-  line-height: 200px;
-  color: #fff;
-  text-transform: uppercase;
-}
-
-.btn--verde2 {
-  background-color: blue;
-  height: 200px;
-  width: 400px;
-  border: 2px solid #333;
-  text-align: center;
-  font-size: 50px;
-  line-height: 200px;
-  color: #fff;
-  text-transform: uppercase;
-}
-
-.btn--verde3 {
-  background-color: yellow;
-  height: 200px;
-  width: 400px;
-  border: 2px solid #333;
-  text-align: center;
-  font-size: 50px;
-  line-height: 200px;
-  color: #fff;
-  text-transform: uppercase;
-}
-
-.redsocial, .redsocial--nueva {
-  border: 3px solid #47a2b3;
-  background-color: #6aaf8f;
-  height: 310px;
-  width: 550px;
-  padding: 20px;
-}
-
-.redsocial--nueva {
-  border-width: 3px;
-  color: #ccc;
-}
-
-.box {
-  background-color: green;
-  font-size: large;
-  color: black;
-  text-align: center;
-}
-
 .customer a {
   display: block;
   overflow: hidden;
@@ -258,6 +211,7 @@ div {
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
+  width: 75%;
 }
 
 .productos {
